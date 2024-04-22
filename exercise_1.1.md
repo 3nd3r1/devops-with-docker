@@ -1,5 +1,5 @@
 ```console
-docker ps -a
+3nd3r1@github$ docker ps -a
 CONTAINER ID   IMAGE     COMMAND                  CREATED              STATUS                          PORTS     NAMES
 06e2886444ca   nginx     "/docker-entrypoint.…"   About a minute ago   Up About a minute               80/tcp    angry_meninsky
 d874a2711cfb   nginx     "/docker-entrypoint.…"   About a minute ago   Exited (0) About a minute ago             lucid_chandrasekhar
