@@ -1,0 +1,3 @@
+- [hub.docker.com/3nd3r1/prnt-scavenger](https://hub.docker.com/r/3nd3r1/prnt-scavenger)
+- [github.com/3nd3r1/prnt-scavenger](https://github.com/3nd3r1/prntScavenger)
+- [exercise_1.15 commit](https://github.com/3nd3r1/prntScavenger/commit/2204afd971d3fcce89822fba310bf73b6e6a08b6)
