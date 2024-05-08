@@ -1,0 +1,3 @@
+- **The Dockerfile:** [github.com/3nd3r1/prntScavenger/Dockerfile](https://github.com/3nd3r1/prntScavenger/blob/master/Dockerfile)
+- **What I did:** I simply logged into render.com, created a new web service, and deployed from an image on Docker Hub. I didn't have to do anything else, as the image was already built and ready to go.
+- **Link to running app:** [prnt-scavenger.onrender.com](https://prnt-scavenger.onrender.com/)
