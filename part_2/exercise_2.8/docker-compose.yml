@@ -1,0 +1,51 @@
+version: "3.8"
+
+services:
+  example-backend:
+    image: example-backend
+    build: ./example-backend
+    ports:
+      - 127.0.0.1:8000:8000
+    environment:
+      - REDIS_HOST=redis
+      - POSTGRES_HOST=postgres
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DATABASE=postgres
+    links:
+      - "redis:redis"
+      - "postgres:postgres"
+    container_name: backend
+  example-frontend:
+    image: example-frontend
+    build: ./example-frontend
+    ports:
+      - 127.0.0.1:5000:5000
+    container_name: frontend
+  redis:
+    image: redis:alpine
+    container_name: redis
+  postgres:
+    image: postgres:alpine
+    container_name: postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: postgres
+    volumes:
+      - type: bind
+        source: ./database
+        target: /var/lib/postgresql/data
+  nginx:
+    image: nginx:alpine
+    container_name: nginx
+    volumes:
+      - type: bind
+        source: ./nginx.conf
+        target: /etc/nginx/nginx.conf
+    links:
+      - "example-backend:backend"
+      - "example-frontend:frontend"
+    ports:
+      - 127.0.0.1:80:80
