@@ -1,0 +1,3 @@
+- **What I did:** I made my simple [bloglist](https://github.com/3nd3r1/bloglist) project implement containers for the development environment. I created two Dockerfiles for the backend and frontend and created a docker-compose file that runs both containers and a MongoDB container.
+- **Link to commit:** [github.com/3nd3r1/bloglist/commit/b239454](https://github.com/3nd3r1/bloglist/commit/b2394543c13ffeb490b7e0beb0d12fa9c40aaab9)
+- **Link to repository:** [github.com/3nd3r1/bloglist](https://github.com/3nd3r1/bloglist)
