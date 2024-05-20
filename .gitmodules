@@ -1,0 +1,3 @@
+[submodule "part_3/exercise_3.1"]
+	path = part_3/exercise_3.1
+	url = https://github.com/3nd3r1/express-app
