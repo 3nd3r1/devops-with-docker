@@ -1,5 +1,9 @@
 # DevOps with Docker
 
+## Status
+
+Completed 2/3 parts.
+
 ## Part 1
 
 ### Status
@@ -24,3 +28,23 @@ Completed 16/16 exercises.
 - [Exercise 1.14](/part_1/exercise_1.14.md)
 - [Exercise 1.15](/part_1/exercise_1.15.md)
 - [Exercise 1.16](/part_1/exercise_1.16.md)
+
+## Part 2
+
+### Status
+
+Completed 11/11 exercises.
+
+### Answers
+
+- [Exercise 2.1](/part_2/exercise_2.1/)
+- [Exercise 2.2](/part_2/exercise_2.2/)
+- [Exercise 2.3](/part_2/exercise_2.3/)
+- [Exercise 2.4](/part_2/exercise_2.4/)
+- [Exercise 2.5](/part_2/exercise_2.5.md)
+- [Exercise 2.6](/part_2/exercise_2.6/)
+- [Exercise 2.7](/part_2/exercise_2.7/)
+- [Exercise 2.8](/part_2/exercise_2.8/)
+- [Exercise 2.9](/part_2/exercise_2.9/)
+- [Exercise 2.10](/part_2/exercise_2.10/)
+- [Exercise 2.11](/part_2/exercise_2.11.md)
