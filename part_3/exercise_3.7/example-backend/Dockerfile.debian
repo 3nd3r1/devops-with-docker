@@ -1,0 +1,15 @@
+FROM golang:1.16
+
+EXPOSE 8000
+
+ENV PORT=8000
+ENV REQUEST_ORIGIN=http://localhost:5000
+
+WORKDIR /usr/src/app
+COPY . .
+
+RUN useradd appuser && chown -R appuser . && go build && go clean -modcache
+
+USER appuser
+
+CMD ["./server"]
