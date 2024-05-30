@@ -4,3 +4,9 @@
 [submodule "part_3/exercise_3.2"]
 	path = part_3/exercise_3.2
 	url = https://github.com/3nd3r1/prntScavenger
+[submodule "part_3/exercise_3.10/before"]
+	path = part_3/exercise_3.10/before
+	url = https://github.com/3nd3r1/prntScavenger.git
+[submodule "part_3/exercise_3.10/after"]
+	path = part_3/exercise_3.10/after
+	url = https://github.com/3nd3r1/prntScavenger.git
