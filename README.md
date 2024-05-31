@@ -2,7 +2,7 @@
 
 ## Status
 
-Completed 2/3 parts.
+Completed 3/3 parts.
 
 ## Part 1
 
@@ -48,3 +48,23 @@ Completed 11/11 exercises.
 - [Exercise 2.9](/part_2/exercise_2.9/)
 - [Exercise 2.10](/part_2/exercise_2.10/)
 - [Exercise 2.11](/part_2/exercise_2.11.md)
+
+## Part 3
+
+### Status
+
+Completed 11/11 exercises.
+
+### Answers
+
+- [Exercise 3.1](/part_3/exercise_3.1/)
+- [Exercise 3.2](/part_3/exercise_3.2/)
+- [Exercise 3.3](/part_3/exercise_3.3/)
+- [Exercise 3.4](/part_3/exercise_3.4/)
+- [Exercise 3.5](/part_3/exercise_3.5/)
+- [Exercise 3.6](/part_3/exercise_3.6/)
+- [Exercise 3.7](/part_3/exercise_3.7/)
+- [Exercise 3.8](/part_3/exercise_3.8/)
+- [Exercise 3.9](/part_3/exercise_3.9/)
+- [Exercise 3.10](/part_3/exercise_3.10/)
+- [Exercise 3.11](/part_3/exercise_3.11/)
